@@ -11,8 +11,8 @@
     "url": "https://github.com/Nemesarial/karma-hipchat-reporter.git"
   },
   "keywords": [
-    "karma",
-    "reporter",
+    "karma-plugin",
+    "karma-reporter",
     "hipchat"
   ],
   "author": "Mark Holtzhausen",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Nemesarial/karma-hipchat-reporter/issues"
   },
-  "homepage": "https://github.com/Nemesarial/karma-hipchat-reporter"
+  "homepage": "https://github.com/Nemesarial/karma-hipchat-reporter",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "hipchat-message" : "0.1.0"
+  }
 }
