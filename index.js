@@ -41,11 +41,24 @@ var HipchatReporter = function (logger, config) {
             output.push(config.title);
         }
 
-        output.push('<ul><li>' + fail.join('</li><li>')+'</li></ul>');
+        if(results.failed>0){
+            output.push('<ul><li>' + fail.join('</li><li>')+'</li></ul>');
+        }
 
-        var outputString = output.join('<br /><br />')
-        hipchat.error(outputString, true);
-        //console.log(outputString);
+        var outputString = [output.join('<br /><br />')];
+
+        outputString.push('<br><br>');
+        outputString.push('<b>Summary</b>');
+        outputString.push('<ul>');
+                outputString.push('<li><b>Success:</b> '+results.success+'</li>');
+                outputString.push('<li><b>Failures:</b> '+results.failed+'</li>');
+        outputString.push('</ul>');
+        if(results.failed>0){
+            hipchat.error(outputString.join(''), true);
+        }else{
+            hipchat.success(outputString.join(''), true);
+        }
+        //console.log(outputString.join(''));
     };
 
 };
