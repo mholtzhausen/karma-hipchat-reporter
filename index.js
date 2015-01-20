@@ -45,7 +45,7 @@ var HipchatReporter = function (logger, config) {
 
         var outputString = output.join('<br /><br />')
         hipchat.error(outputString, true);
-        console.log(outputString);
+        //console.log(outputString);
     };
 
 };
