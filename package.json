@@ -15,9 +15,13 @@
     "karma-reporter",
     "hipchat"
   ],
+<<<<<<< HEAD
   "author": {
     "name": "Mark Holtzhausen"
   },
+=======
+  "author": "Mark Holtzhausen",
+>>>>>>> 8c77ef9aa8a8a5ddf4ecb889900f3930b0bb70b4
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/Nemesarial/karma-hipchat-reporter/issues"
@@ -25,6 +29,7 @@
   "homepage": "https://github.com/Nemesarial/karma-hipchat-reporter",
   "dependencies": {
     "lodash": "^2.4.1",
+<<<<<<< HEAD
     "hipchat-message": "0.1.0"
   },
   "gitHead": "8f4b13a24e63a7ccfe02207c51f13acedc53aae5",
@@ -32,4 +37,8 @@
   "_id": "karma-hipchat-reporter@0.1.0",
   "_shasum": "aba6c54259644c31ae5987268284e10707eb5cf0",
   "_from": "karma-hipchat-reporter@*"
+=======
+    "hipchat-message" : "0.1.0"
+  }
+>>>>>>> 8c77ef9aa8a8a5ddf4ecb889900f3930b0bb70b4
 }
