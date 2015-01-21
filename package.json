@@ -1,0 +1,35 @@
+{
+  "name": "karma-hipchat-reporter",
+  "version": "0.1.3",
+  "description": "Karma reporter on Hipchat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nemesarial/karma-hipchat-reporter.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "hipchat"
+  ],
+  "author": {
+    "name": "Mark Holtzhausen"
+  },
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/Nemesarial/karma-hipchat-reporter/issues"
+  },
+  "homepage": "https://github.com/Nemesarial/karma-hipchat-reporter",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "hipchat-message": "^0.1.0"
+  },
+  "gitHead": "8f4b13a24e63a7ccfe02207c51f13acedc53aae5",
+  "readme": "ERROR: No README data found!",
+  "_id": "karma-hipchat-reporter@0.1.3",
+  "_shasum": "03c85760d553e3543fd305fd19c55656ab1ac1a0",
+  "_from": "karma-hipchat-reporter@>=0.1.0 <0.2.0"
+}
