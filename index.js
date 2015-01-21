@@ -50,8 +50,8 @@ var HipchatReporter = function (logger, config) {
         outputString.push('<br><br>');
         outputString.push('<b>Summary</b>');
         outputString.push('<ul>');
-                outputString.push('<li><b>Success:</b> '+results.success+'</li>');
-                outputString.push('<li><b>Failures:</b> '+results.failed+'</li>');
+        outputString.push('<li><b>Success:</b> '+results.success+'</li>');
+        outputString.push('<li><b>Failures:</b> '+results.failed+'</li>');
         outputString.push('</ul>');
         if(results.failed>0){
             hipchat.error(outputString.join(''), true);
