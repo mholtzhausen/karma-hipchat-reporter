@@ -1,4 +1,7 @@
 # karma-hipchat-reporter
+[![NPM](https://nodei.co/npm/karma-hipchat-reporter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/karma-hipchat-reporter/)
+
+
 Error and summary report from karma testing to hipchat
 
 ## Install
