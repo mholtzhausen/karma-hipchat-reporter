@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Nemesarial/karma-hipchat-reporter",
   "dependencies": {
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.19",
     "hipchat-message": "^0.1.0"
   },
    "publishConfig": {
